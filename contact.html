@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous - Devis Gratuit RENOV-IMMO</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <header>
+            <div class="logo">
+            <img src="images/logo-daron.jpg" alt="Logo RENOV-IMMO" class="logo-img">
+            RENOV-IMMO
+            </div>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="portfolio.html">Nos Réalisations</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h1>Demande de Devis & Contact</h1>
+            <p>Tous les champs sont obligatoires afin de pouvoir traiter votre demande de chantier.</p>
+
+            <form id="formulaire-contact">
+                <div class="form-group">
+                    <label for="nom">Nom : (Obligatoire)</label>
+                    <input type="text" id="nom" name="nom" required placeholder="Votre nom complet">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Adresse e-mail : (Obligatoire)</label>
+                    <input type="email" id="email" name="email" required placeholder="exemple@gmail.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message : (Obligatoire)</label>
+                    <textarea id="message" name="message" rows="6" required placeholder="Détaillez vos travaux de maçonnerie ou toiture..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Préparer le courriel</button>
+            </form>
+        </section>
+    </main>
+
+    <!--Pied de page commun-->
+    <footer>
+         <!-- N'OUBLIE PAS DE DEMANDER AU PROF-->
+        <p>&copy; 2026 Renov-immo - Tous droits réservés.</p>
+    </footer>
+
+    <script src="contact.js" defer></script>
+</body>
+</html>
